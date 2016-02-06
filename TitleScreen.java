@@ -17,8 +17,8 @@ public class TitleScreen extends World
     {    
         // Create a new world with 600x600 cells with a cell size of 1x1 pixels.
         super(600, 600, 1);
-        this.addObject(new TextBox("Start Game"),300, 200);
-        this.addObject(new TextBox("Credits"),300,400);
+        this.addObject(new TextBox("Start Game", 24),300, 200);
+        this.addObject(new TextBox("Credits",24),300,400);
         GreenfootImage background = new GreenfootImage("background.png");
         setBackground(background);
         

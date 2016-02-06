@@ -13,8 +13,8 @@ public class TextBox extends Actor
      * Act - do whatever the text_box wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public TextBox(String text) {
-        GreenfootImage textImage = new GreenfootImage(text, 24, Color.white, Color.black);
+    public TextBox(String text, int fontSize) {
+        GreenfootImage textImage = new GreenfootImage(text, fontSize, Color.white, Color.black);
         GreenfootImage image = new GreenfootImage(textImage.getWidth()+12, 36);
         image.setColor(Color.gray);
         image.fill();
